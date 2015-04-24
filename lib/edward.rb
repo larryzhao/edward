@@ -20,7 +20,7 @@ module Edward
       timeout = (options[:timeout] || 2).to_i
 
       Edward.ssdb = ConnectionPool.new(size: pool_size, timeout: timeout) do
-        SSDB.new(url: options[:url])
+        Redis.new(url: options[:url])
       end
     end
   end
