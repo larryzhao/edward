@@ -1,4 +1,4 @@
-require "ssdb"
+require "redis"
 require "connection_pool"
 require "active_support/concern"
 require "active_support/inflector"
