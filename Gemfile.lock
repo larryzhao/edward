@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    edward (0.0.2)
+    edward (0.0.5)
       activesupport (~> 4.2.1)
       connection_pool (~> 2.1.0)
-      ssdb
+      redis (~> 3.1.0)
 
 GEM
   remote: http://ruby.taobao.org/
@@ -31,7 +31,7 @@ GEM
     json (1.8.2)
     minitest (5.5.1)
     rake (10.4.2)
-    ssdb (0.1.0)
+    redis (3.1.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
